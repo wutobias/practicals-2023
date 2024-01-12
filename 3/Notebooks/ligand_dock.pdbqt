@@ -1,0 +1,702 @@
+MODEL 1
+REMARK VINA RESULT:    -9.899      0.000      0.000
+REMARK INTER + INTRA:         -14.450
+REMARK INTER:                 -13.951
+REMARK INTRA:                  -0.499
+REMARK UNBOUND:                -0.499
+REMARK  Name = ligand.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: N1_2  and  N2_5
+REMARK    3  A    between atoms: C2_4  and  C3_7
+REMARK    4  A    between atoms: N2_5  and  C4_9
+REMARK    5  A    between atoms: O2_6  and  C9_14
+REMARK    6  A    between atoms: O2_6  and  C10_15
+REMARK    7  A    between atoms: O3_8  and  C14_19
+REMARK    8  A    between atoms: C4_9  and  C5_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  1SB A2001     -10.062  -7.391  17.787  0.00  0.00    +0.000 N 
+ATOM      2  O1  1SB A2001      -8.763  -7.443  16.019  0.00  0.00    +0.000 OA
+ATOM      3  C3  1SB A2001      -9.672  -7.972  16.645  0.00  0.00    +0.000 C 
+ATOM      4  H   1SB A2001     -10.883  -7.745  18.201  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C2  1SB A2001     -10.334  -9.249  16.095  0.00  0.00    +0.000 C 
+ATOM      6  H   1SB A2001     -10.564  -9.068  15.065  0.00  0.00    +0.000 HD
+ATOM      7  H   1SB A2001     -11.173  -9.412  16.739  0.00  0.00    +0.000 HD
+BRANCH   5   8
+ATOM      8  C1  1SB A2001      -9.584 -10.495  16.158  0.00  0.00    +0.000 A 
+ATOM      9  C6  1SB A2001      -9.184 -11.065  14.974  0.00  0.00    +0.000 A 
+ATOM     10  C7  1SB A2001      -8.487 -12.232  14.891  0.00  0.00    +0.000 A 
+ATOM     11  C8  1SB A2001      -8.206 -12.862  16.055  0.00  0.00    +0.000 A 
+ATOM     12  C9  1SB A2001      -8.573 -12.274  17.235  0.00  0.00    +0.000 A 
+ATOM     13  C11 1SB A2001      -9.279 -11.092  17.368  0.00  0.00    +0.000 A 
+ATOM     14  H   1SB A2001      -9.426 -10.581  14.095  0.00  0.00    +0.000 HD
+ATOM     15  H   1SB A2001      -8.187 -12.617  13.983  0.00  0.00    +0.000 HD
+ATOM     16  H   1SB A2001      -7.723 -13.774  16.054  0.00  0.00    +0.000 HD
+ATOM     17  H   1SB A2001      -9.551 -10.694  18.280  0.00  0.00    +0.000 HD
+BRANCH  12  18
+ATOM     18  O2  1SB A2001      -8.229 -12.889  18.377  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C10 1SB A2001      -8.880 -14.123  18.809  0.00  0.00    +0.000 C 
+ATOM     20  H   1SB A2001      -8.986 -14.782  17.974  0.00  0.00    +0.000 HD
+ATOM     21  H   1SB A2001      -9.846 -13.896  19.208  0.00  0.00    +0.000 HD
+ATOM     22  H   1SB A2001      -8.285 -14.595  19.562  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  23
+ATOM     23  N2  1SB A2001      -9.434  -6.333  18.461  0.00  0.00    +0.000 NA
+ATOM     24  H   1SB A2001      -8.744  -5.919  17.835  0.00  0.00    +0.000 HD
+BRANCH  23  25
+ATOM     25  C4  1SB A2001      -8.838  -6.686  19.543  0.00  0.00    +0.000 C 
+ATOM     26  H   1SB A2001      -9.498  -6.497  20.364  0.00  0.00    +0.000 HD
+ATOM     27  H   1SB A2001      -8.592  -7.720  19.428  0.00  0.00    +0.000 HD
+BRANCH  25  28
+ATOM     28  C5  1SB A2001      -7.538  -5.968  19.813  0.00  0.00    +0.000 A 
+ATOM     29  C12 1SB A2001      -6.266  -6.235  19.343  0.00  0.00    +0.000 A 
+ATOM     30  C13 1SB A2001      -5.172  -5.436  19.783  0.00  0.00    +0.000 A 
+ATOM     31  C14 1SB A2001      -5.302  -4.368  20.626  0.00  0.00    +0.000 A 
+ATOM     32  C15 1SB A2001      -6.589  -4.097  21.079  0.00  0.00    +0.000 A 
+ATOM     33  C16 1SB A2001      -7.677  -4.888  20.677  0.00  0.00    +0.000 A 
+ATOM     34  H   1SB A2001      -6.110  -7.008  18.677  0.00  0.00    +0.000 HD
+ATOM     35  H   1SB A2001      -4.227  -5.678  19.446  0.00  0.00    +0.000 HD
+ATOM     36  H   1SB A2001      -6.746  -3.304  21.721  0.00  0.00    +0.000 HD
+ATOM     37  H   1SB A2001      -8.616  -4.658  21.036  0.00  0.00    +0.000 HD
+BRANCH  31  38
+ATOM     38  O3  1SB A2001      -4.260  -3.589  21.029  0.00  0.00    +0.000 OA
+ATOM     39  H   1SB A2001      -3.381  -3.903  20.947  0.00  0.00    +0.000 HD
+ENDBRANCH  31  38
+ENDBRANCH  25  28
+ENDBRANCH  23  25
+ENDBRANCH   1  23
+TORSDOF 8
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -9.251      1.240      1.713
+REMARK INTER + INTRA:         -13.536
+REMARK INTER:                 -13.190
+REMARK INTRA:                  -0.346
+REMARK UNBOUND:                -0.499
+REMARK  Name = ligand.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: N1_2  and  N2_5
+REMARK    3  A    between atoms: C2_4  and  C3_7
+REMARK    4  A    between atoms: N2_5  and  C4_9
+REMARK    5  A    between atoms: O2_6  and  C9_14
+REMARK    6  A    between atoms: O2_6  and  C10_15
+REMARK    7  A    between atoms: O3_8  and  C14_19
+REMARK    8  A    between atoms: C4_9  and  C5_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  1SB A2001      -8.643  -7.117  16.769  0.00  0.00    +0.000 N 
+ATOM      2  O1  1SB A2001     -10.759  -7.562  16.395  0.00  0.00    +0.000 OA
+ATOM      3  C3  1SB A2001      -9.591  -7.847  16.167  0.00  0.00    +0.000 C 
+ATOM      4  H   1SB A2001      -7.719  -7.448  16.689  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C2  1SB A2001      -9.263  -9.026  15.232  0.00  0.00    +0.000 C 
+ATOM      6  H   1SB A2001      -8.388  -8.757  14.678  0.00  0.00    +0.000 HD
+ATOM      7  H   1SB A2001     -10.155  -9.165  14.659  0.00  0.00    +0.000 HD
+BRANCH   5   8
+ATOM      8  C1  1SB A2001      -9.011 -10.329  15.831  0.00  0.00    +0.000 A 
+ATOM      9  C6  1SB A2001      -9.093 -10.436  17.198  0.00  0.00    +0.000 A 
+ATOM     10  C7  1SB A2001      -8.871 -11.591  17.883  0.00  0.00    +0.000 A 
+ATOM     11  C8  1SB A2001      -8.524 -12.678  17.155  0.00  0.00    +0.000 A 
+ATOM     12  C9  1SB A2001      -8.478 -12.579  15.792  0.00  0.00    +0.000 A 
+ATOM     13  C11 1SB A2001      -8.698 -11.430  15.054  0.00  0.00    +0.000 A 
+ATOM     14  H   1SB A2001      -9.338  -9.591  17.737  0.00  0.00    +0.000 HD
+ATOM     15  H   1SB A2001      -8.963 -11.636  18.909  0.00  0.00    +0.000 HD
+ATOM     16  H   1SB A2001      -8.296 -13.570  17.623  0.00  0.00    +0.000 HD
+ATOM     17  H   1SB A2001      -8.635 -11.397  14.024  0.00  0.00    +0.000 HD
+BRANCH  12  18
+ATOM     18  O2  1SB A2001      -8.192 -13.687  15.090  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C10 1SB A2001      -8.802 -14.975  15.410  0.00  0.00    +0.000 C 
+ATOM     20  H   1SB A2001      -9.167 -15.430  14.514  0.00  0.00    +0.000 HD
+ATOM     21  H   1SB A2001      -9.615 -14.825  16.090  0.00  0.00    +0.000 HD
+ATOM     22  H   1SB A2001      -8.072 -15.613  15.862  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  23
+ATOM     23  N2  1SB A2001      -8.818  -5.934  17.501  0.00  0.00    +0.000 NA
+ATOM     24  H   1SB A2001      -8.117  -5.260  17.194  0.00  0.00    +0.000 HD
+BRANCH  23  25
+ATOM     25  C4  1SB A2001      -8.703  -6.085  18.772  0.00  0.00    +0.000 C 
+ATOM     26  H   1SB A2001      -9.542  -5.612  19.240  0.00  0.00    +0.000 HD
+ATOM     27  H   1SB A2001      -8.661  -7.140  18.947  0.00  0.00    +0.000 HD
+BRANCH  25  28
+ATOM     28  C5  1SB A2001      -7.445  -5.505  19.369  0.00  0.00    +0.000 A 
+ATOM     29  C12 1SB A2001      -6.121  -5.770  19.071  0.00  0.00    +0.000 A 
+ATOM     30  C13 1SB A2001      -5.091  -5.126  19.814  0.00  0.00    +0.000 A 
+ATOM     31  C14 1SB A2001      -5.326  -4.206  20.796  0.00  0.00    +0.000 A 
+ATOM     32  C15 1SB A2001      -6.660  -3.933  21.077  0.00  0.00    +0.000 A 
+ATOM     33  C16 1SB A2001      -7.690  -4.576  20.373  0.00  0.00    +0.000 A 
+ATOM     34  H   1SB A2001      -5.882  -6.431  18.316  0.00  0.00    +0.000 HD
+ATOM     35  H   1SB A2001      -4.111  -5.368  19.598  0.00  0.00    +0.000 HD
+ATOM     36  H   1SB A2001      -6.897  -3.248  21.812  0.00  0.00    +0.000 HD
+ATOM     37  H   1SB A2001      -8.669  -4.349  20.610  0.00  0.00    +0.000 HD
+BRANCH  31  38
+ATOM     38  O3  1SB A2001      -4.340  -3.571  21.492  0.00  0.00    +0.000 OA
+ATOM     39  H   1SB A2001      -3.927  -4.000  22.215  0.00  0.00    +0.000 HD
+ENDBRANCH  31  38
+ENDBRANCH  25  28
+ENDBRANCH  23  25
+ENDBRANCH   1  23
+TORSDOF 8
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -9.135      1.577      8.173
+REMARK INTER + INTRA:         -13.373
+REMARK INTER:                 -13.037
+REMARK INTRA:                  -0.336
+REMARK UNBOUND:                -0.499
+REMARK  Name = ligand.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: N1_2  and  N2_5
+REMARK    3  A    between atoms: C2_4  and  C3_7
+REMARK    4  A    between atoms: N2_5  and  C4_9
+REMARK    5  A    between atoms: O2_6  and  C9_14
+REMARK    6  A    between atoms: O2_6  and  C10_15
+REMARK    7  A    between atoms: O3_8  and  C14_19
+REMARK    8  A    between atoms: C4_9  and  C5_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  1SB A2001      -8.937  -8.285  18.521  0.00  0.00    +0.000 N 
+ATOM      2  O1  1SB A2001      -8.509  -6.990  16.802  0.00  0.00    +0.000 OA
+ATOM      3  C3  1SB A2001      -8.706  -7.070  18.008  0.00  0.00    +0.000 C 
+ATOM      4  H   1SB A2001      -8.950  -8.350  19.504  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C2  1SB A2001      -8.659  -5.798  18.874  0.00  0.00    +0.000 C 
+ATOM      6  H   1SB A2001      -9.342  -5.942  19.685  0.00  0.00    +0.000 HD
+ATOM      7  H   1SB A2001      -8.901  -5.007  18.195  0.00  0.00    +0.000 HD
+BRANCH   5   8
+ATOM      8  C1  1SB A2001      -7.381  -5.403  19.449  0.00  0.00    +0.000 A 
+ATOM      9  C6  1SB A2001      -6.236  -5.885  18.862  0.00  0.00    +0.000 A 
+ATOM     10  C7  1SB A2001      -4.981  -5.602  19.306  0.00  0.00    +0.000 A 
+ATOM     11  C8  1SB A2001      -4.881  -4.820  20.406  0.00  0.00    +0.000 A 
+ATOM     12  C9  1SB A2001      -6.020  -4.311  20.966  0.00  0.00    +0.000 A 
+ATOM     13  C11 1SB A2001      -7.314  -4.568  20.550  0.00  0.00    +0.000 A 
+ATOM     14  H   1SB A2001      -6.333  -6.498  18.038  0.00  0.00    +0.000 HD
+ATOM     15  H   1SB A2001      -4.144  -5.968  18.826  0.00  0.00    +0.000 HD
+ATOM     16  H   1SB A2001      -3.957  -4.611  20.817  0.00  0.00    +0.000 HD
+ATOM     17  H   1SB A2001      -8.147  -4.175  21.015  0.00  0.00    +0.000 HD
+BRANCH  12  18
+ATOM     18  O2  1SB A2001      -5.890  -3.487  22.018  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C10 1SB A2001      -6.957  -2.570  22.408  0.00  0.00    +0.000 C 
+ATOM     20  H   1SB A2001      -7.155  -1.890  21.606  0.00  0.00    +0.000 HD
+ATOM     21  H   1SB A2001      -6.656  -2.020  23.275  0.00  0.00    +0.000 HD
+ATOM     22  H   1SB A2001      -7.843  -3.127  22.629  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  23
+ATOM     23  N2  1SB A2001      -9.162  -9.477  17.817  0.00  0.00    +0.000 NA
+ATOM     24  H   1SB A2001     -10.167  -9.645  17.784  0.00  0.00    +0.000 HD
+BRANCH  23  25
+ATOM     25  C4  1SB A2001      -8.597 -10.507  18.340  0.00  0.00    +0.000 C 
+ATOM     26  H   1SB A2001      -7.561 -10.280  18.484  0.00  0.00    +0.000 HD
+ATOM     27  H   1SB A2001      -9.117 -10.703  19.254  0.00  0.00    +0.000 HD
+BRANCH  25  28
+ATOM     28  C5  1SB A2001      -8.692 -11.768  17.517  0.00  0.00    +0.000 A 
+ATOM     29  C12 1SB A2001      -8.698 -13.089  17.922  0.00  0.00    +0.000 A 
+ATOM     30  C13 1SB A2001      -8.746 -14.124  16.944  0.00  0.00    +0.000 A 
+ATOM     31  C14 1SB A2001      -8.834 -13.894  15.600  0.00  0.00    +0.000 A 
+ATOM     32  C15 1SB A2001      -8.845 -12.561  15.204  0.00  0.00    +0.000 A 
+ATOM     33  C16 1SB A2001      -8.773 -11.527  16.151  0.00  0.00    +0.000 A 
+ATOM     34  H   1SB A2001      -8.667 -13.325  18.926  0.00  0.00    +0.000 HD
+ATOM     35  H   1SB A2001      -8.713 -15.103  17.269  0.00  0.00    +0.000 HD
+ATOM     36  H   1SB A2001      -8.907 -12.328  14.200  0.00  0.00    +0.000 HD
+ATOM     37  H   1SB A2001      -8.781 -10.550  15.820  0.00  0.00    +0.000 HD
+BRANCH  31  38
+ATOM     38  O3  1SB A2001      -8.904 -14.882  14.665  0.00  0.00    +0.000 OA
+ATOM     39  H   1SB A2001      -8.329 -14.869  13.925  0.00  0.00    +0.000 HD
+ENDBRANCH  31  38
+ENDBRANCH  25  28
+ENDBRANCH  23  25
+ENDBRANCH   1  23
+TORSDOF 8
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -8.932      1.739      7.307
+REMARK INTER + INTRA:         -13.087
+REMARK INTER:                 -12.487
+REMARK INTRA:                  -0.600
+REMARK UNBOUND:                -0.499
+REMARK  Name = ligand.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: N1_2  and  N2_5
+REMARK    3  A    between atoms: C2_4  and  C3_7
+REMARK    4  A    between atoms: N2_5  and  C4_9
+REMARK    5  A    between atoms: O2_6  and  C9_14
+REMARK    6  A    between atoms: O2_6  and  C10_15
+REMARK    7  A    between atoms: O3_8  and  C14_19
+REMARK    8  A    between atoms: C4_9  and  C5_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  1SB A2001     -10.388  -7.656  15.772  0.00  0.00    +0.000 N 
+ATOM      2  O1  1SB A2001     -11.471  -7.626  17.681  0.00  0.00    +0.000 OA
+ATOM      3  C3  1SB A2001     -10.726  -7.036  16.910  0.00  0.00    +0.000 C 
+ATOM      4  H   1SB A2001      -9.909  -7.114  15.104  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C2  1SB A2001     -10.233  -5.620  17.262  0.00  0.00    +0.000 C 
+ATOM      6  H   1SB A2001     -11.086  -5.057  17.579  0.00  0.00    +0.000 HD
+ATOM      7  H   1SB A2001      -9.751  -5.278  16.371  0.00  0.00    +0.000 HD
+BRANCH   5   8
+ATOM      8  C1  1SB A2001      -9.217  -5.482  18.297  0.00  0.00    +0.000 A 
+ATOM      9  C6  1SB A2001      -8.359  -6.536  18.499  0.00  0.00    +0.000 A 
+ATOM     10  C7  1SB A2001      -7.373  -6.541  19.438  0.00  0.00    +0.000 A 
+ATOM     11  C8  1SB A2001      -7.269  -5.444  20.224  0.00  0.00    +0.000 A 
+ATOM     12  C9  1SB A2001      -8.100  -4.381  19.996  0.00  0.00    +0.000 A 
+ATOM     13  C11 1SB A2001      -9.112  -4.330  19.055  0.00  0.00    +0.000 A 
+ATOM     14  H   1SB A2001      -8.468  -7.373  17.905  0.00  0.00    +0.000 HD
+ATOM     15  H   1SB A2001      -6.736  -7.345  19.546  0.00  0.00    +0.000 HD
+ATOM     16  H   1SB A2001      -6.573  -5.410  20.985  0.00  0.00    +0.000 HD
+ATOM     17  H   1SB A2001      -9.728  -3.512  18.930  0.00  0.00    +0.000 HD
+BRANCH  12  18
+ATOM     18  O2  1SB A2001      -7.935  -3.282  20.748  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C10 1SB A2001      -6.914  -3.213  21.790  0.00  0.00    +0.000 C 
+ATOM     20  H   1SB A2001      -5.954  -3.064  21.340  0.00  0.00    +0.000 HD
+ATOM     21  H   1SB A2001      -6.909  -4.127  22.345  0.00  0.00    +0.000 HD
+ATOM     22  H   1SB A2001      -7.129  -2.397  22.447  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  23
+ATOM     23  N2  1SB A2001     -10.640  -8.991  15.425  0.00  0.00    +0.000 NA
+ATOM     24  H   1SB A2001     -10.979  -9.480  16.253  0.00  0.00    +0.000 HD
+BRANCH  23  25
+ATOM     25  C4  1SB A2001      -9.611  -9.617  14.979  0.00  0.00    +0.000 C 
+ATOM     26  H   1SB A2001      -9.840  -9.977  13.997  0.00  0.00    +0.000 HD
+ATOM     27  H   1SB A2001      -8.803  -8.916  14.994  0.00  0.00    +0.000 HD
+BRANCH  25  28
+ATOM     28  C5  1SB A2001      -9.171 -10.792  15.818  0.00  0.00    +0.000 A 
+ATOM     29  C12 1SB A2001      -8.787 -12.061  15.429  0.00  0.00    +0.000 A 
+ATOM     30  C13 1SB A2001      -8.458 -13.030  16.420  0.00  0.00    +0.000 A 
+ATOM     31  C14 1SB A2001      -8.454 -12.772  17.762  0.00  0.00    +0.000 A 
+ATOM     32  C15 1SB A2001      -8.825 -11.486  18.142  0.00  0.00    +0.000 A 
+ATOM     33  C16 1SB A2001      -9.176 -10.525  17.181  0.00  0.00    +0.000 A 
+ATOM     34  H   1SB A2001      -8.739 -12.306  14.428  0.00  0.00    +0.000 HD
+ATOM     35  H   1SB A2001      -8.210 -13.982  16.107  0.00  0.00    +0.000 HD
+ATOM     36  H   1SB A2001      -8.842 -11.236  19.143  0.00  0.00    +0.000 HD
+ATOM     37  H   1SB A2001      -9.449  -9.582  17.501  0.00  0.00    +0.000 HD
+BRANCH  31  38
+ATOM     38  O3  1SB A2001      -8.117 -13.691  18.710  0.00  0.00    +0.000 OA
+ATOM     39  H   1SB A2001      -7.523 -13.460  19.396  0.00  0.00    +0.000 HD
+ENDBRANCH  31  38
+ENDBRANCH  25  28
+ENDBRANCH  23  25
+ENDBRANCH   1  23
+TORSDOF 8
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -8.753      1.622      2.850
+REMARK INTER + INTRA:         -12.835
+REMARK INTER:                 -12.859
+REMARK INTRA:                   0.024
+REMARK UNBOUND:                -0.499
+REMARK  Name = ligand.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: N1_2  and  N2_5
+REMARK    3  A    between atoms: C2_4  and  C3_7
+REMARK    4  A    between atoms: N2_5  and  C4_9
+REMARK    5  A    between atoms: O2_6  and  C9_14
+REMARK    6  A    between atoms: O2_6  and  C10_15
+REMARK    7  A    between atoms: O3_8  and  C14_19
+REMARK    8  A    between atoms: C4_9  and  C5_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  1SB A2001      -8.457  -8.622  19.526  0.00  0.00    +0.000 N 
+ATOM      2  O1  1SB A2001      -8.843  -9.936  21.241  0.00  0.00    +0.000 OA
+ATOM      3  C3  1SB A2001      -8.482  -9.844  20.075  0.00  0.00    +0.000 C 
+ATOM      4  H   1SB A2001      -8.031  -8.549  18.641  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C2  1SB A2001      -8.057 -11.109  19.307  0.00  0.00    +0.000 C 
+ATOM      6  H   1SB A2001      -8.423 -11.951  19.856  0.00  0.00    +0.000 HD
+ATOM      7  H   1SB A2001      -6.993 -11.027  19.229  0.00  0.00    +0.000 HD
+BRANCH   5   8
+ATOM      8  C1  1SB A2001      -8.508 -11.262  17.931  0.00  0.00    +0.000 A 
+ATOM      9  C6  1SB A2001      -8.179 -12.423  17.272  0.00  0.00    +0.000 A 
+ATOM     10  C7  1SB A2001      -8.529 -12.687  15.983  0.00  0.00    +0.000 A 
+ATOM     11  C8  1SB A2001      -9.217 -11.726  15.324  0.00  0.00    +0.000 A 
+ATOM     12  C9  1SB A2001      -9.575 -10.588  15.993  0.00  0.00    +0.000 A 
+ATOM     13  C11 1SB A2001      -9.246 -10.277  17.300  0.00  0.00    +0.000 A 
+ATOM     14  H   1SB A2001      -7.635 -13.135  17.784  0.00  0.00    +0.000 HD
+ATOM     15  H   1SB A2001      -8.280 -13.580  15.530  0.00  0.00    +0.000 HD
+ATOM     16  H   1SB A2001      -9.467 -11.850  14.331  0.00  0.00    +0.000 HD
+ATOM     17  H   1SB A2001      -9.523  -9.395  17.759  0.00  0.00    +0.000 HD
+BRANCH  12  18
+ATOM     18  O2  1SB A2001     -10.311  -9.678  15.336  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C10 1SB A2001     -11.078  -8.657  16.045  0.00  0.00    +0.000 C 
+ATOM     20  H   1SB A2001     -10.412  -8.032  16.602  0.00  0.00    +0.000 HD
+ATOM     21  H   1SB A2001     -11.767  -9.129  16.714  0.00  0.00    +0.000 HD
+ATOM     22  H   1SB A2001     -11.617  -8.061  15.339  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  23
+ATOM     23  N2  1SB A2001      -8.969  -7.435  20.069  0.00  0.00    +0.000 NA
+ATOM     24  H   1SB A2001      -9.983  -7.524  20.136  0.00  0.00    +0.000 HD
+BRANCH  23  25
+ATOM     25  C4  1SB A2001      -8.700  -6.386  19.377  0.00  0.00    +0.000 C 
+ATOM     26  H   1SB A2001      -8.643  -6.673  18.347  0.00  0.00    +0.000 HD
+ATOM     27  H   1SB A2001      -9.482  -5.685  19.578  0.00  0.00    +0.000 HD
+BRANCH  25  28
+ATOM     28  C5  1SB A2001      -7.408  -5.699  19.745  0.00  0.00    +0.000 A 
+ATOM     29  C12 1SB A2001      -6.135  -5.879  19.237  0.00  0.00    +0.000 A 
+ATOM     30  C13 1SB A2001      -5.049  -5.139  19.786  0.00  0.00    +0.000 A 
+ATOM     31  C14 1SB A2001      -5.188  -4.207  20.775  0.00  0.00    +0.000 A 
+ATOM     32  C15 1SB A2001      -6.475  -4.021  21.267  0.00  0.00    +0.000 A 
+ATOM     33  C16 1SB A2001      -7.556  -4.758  20.757  0.00  0.00    +0.000 A 
+ATOM     34  H   1SB A2001      -5.973  -6.545  18.466  0.00  0.00    +0.000 HD
+ATOM     35  H   1SB A2001      -4.102  -5.318  19.415  0.00  0.00    +0.000 HD
+ATOM     36  H   1SB A2001      -6.639  -3.332  22.017  0.00  0.00    +0.000 HD
+ATOM     37  H   1SB A2001      -8.496  -4.594  21.148  0.00  0.00    +0.000 HD
+BRANCH  31  38
+ATOM     38  O3  1SB A2001      -4.153  -3.482  21.285  0.00  0.00    +0.000 OA
+ATOM     39  H   1SB A2001      -3.626  -3.837  21.973  0.00  0.00    +0.000 HD
+ENDBRANCH  31  38
+ENDBRANCH  25  28
+ENDBRANCH  23  25
+ENDBRANCH   1  23
+TORSDOF 8
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -8.575      2.748      4.600
+REMARK INTER + INTRA:         -12.583
+REMARK INTER:                 -11.820
+REMARK INTRA:                  -0.763
+REMARK UNBOUND:                -0.499
+REMARK  Name = ligand.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: N1_2  and  N2_5
+REMARK    3  A    between atoms: C2_4  and  C3_7
+REMARK    4  A    between atoms: N2_5  and  C4_9
+REMARK    5  A    between atoms: O2_6  and  C9_14
+REMARK    6  A    between atoms: O2_6  and  C10_15
+REMARK    7  A    between atoms: O3_8  and  C14_19
+REMARK    8  A    between atoms: C4_9  and  C5_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  1SB A2001      -8.059  -7.669  20.154  0.00  0.00    +0.000 N 
+ATOM      2  O1  1SB A2001     -10.030  -8.590  19.862  0.00  0.00    +0.000 OA
+ATOM      3  C3  1SB A2001      -8.816  -8.745  19.902  0.00  0.00    +0.000 C 
+ATOM      4  H   1SB A2001      -7.104  -7.836  20.324  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C2  1SB A2001      -8.220 -10.148  19.688  0.00  0.00    +0.000 C 
+ATOM      6  H   1SB A2001      -8.585 -10.772  20.478  0.00  0.00    +0.000 HD
+ATOM      7  H   1SB A2001      -7.163  -9.987  19.670  0.00  0.00    +0.000 HD
+BRANCH   5   8
+ATOM      8  C1  1SB A2001      -8.503 -10.832  18.433  0.00  0.00    +0.000 A 
+ATOM      9  C6  1SB A2001      -8.299 -12.190  18.381  0.00  0.00    +0.000 A 
+ATOM     10  C7  1SB A2001      -8.514 -12.946  17.270  0.00  0.00    +0.000 A 
+ATOM     11  C8  1SB A2001      -8.926 -12.296  16.156  0.00  0.00    +0.000 A 
+ATOM     12  C9  1SB A2001      -9.163 -10.950  16.220  0.00  0.00    +0.000 A 
+ATOM     13  C11 1SB A2001      -8.962 -10.143  17.325  0.00  0.00    +0.000 A 
+ATOM     14  H   1SB A2001      -7.964 -12.664  19.234  0.00  0.00    +0.000 HD
+ATOM     15  H   1SB A2001      -8.369 -13.967  17.276  0.00  0.00    +0.000 HD
+ATOM     16  H   1SB A2001      -9.059 -12.809  15.271  0.00  0.00    +0.000 HD
+ATOM     17  H   1SB A2001      -9.137  -9.126  17.323  0.00  0.00    +0.000 HD
+BRANCH  12  18
+ATOM     18  O2  1SB A2001      -9.630 -10.341  15.120  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C10 1SB A2001      -8.874  -9.287  14.449  0.00  0.00    +0.000 C 
+ATOM     20  H   1SB A2001      -9.551  -8.573  14.030  0.00  0.00    +0.000 HD
+ATOM     21  H   1SB A2001      -8.280  -9.715  13.669  0.00  0.00    +0.000 HD
+ATOM     22  H   1SB A2001      -8.236  -8.800  15.156  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  23
+ATOM     23  N2  1SB A2001      -8.474  -6.330  20.203  0.00  0.00    +0.000 NA
+ATOM     24  H   1SB A2001      -9.490  -6.312  20.288  0.00  0.00    +0.000 HD
+BRANCH  23  25
+ATOM     25  C4  1SB A2001      -8.142  -5.643  19.169  0.00  0.00    +0.000 C 
+ATOM     26  H   1SB A2001      -7.812  -4.681  19.502  0.00  0.00    +0.000 HD
+ATOM     27  H   1SB A2001      -7.380  -6.203  18.669  0.00  0.00    +0.000 HD
+BRANCH  25  28
+ATOM     28  C5  1SB A2001      -9.248  -5.437  18.164  0.00  0.00    +0.000 A 
+ATOM     29  C12 1SB A2001     -10.315  -4.558  18.189  0.00  0.00    +0.000 A 
+ATOM     30  C13 1SB A2001     -11.271  -4.583  17.134  0.00  0.00    +0.000 A 
+ATOM     31  C14 1SB A2001     -11.182  -5.407  16.048  0.00  0.00    +0.000 A 
+ATOM     32  C15 1SB A2001     -10.096  -6.275  16.023  0.00  0.00    +0.000 A 
+ATOM     33  C16 1SB A2001      -9.156  -6.284  17.065  0.00  0.00    +0.000 A 
+ATOM     34  H   1SB A2001     -10.417  -3.889  18.968  0.00  0.00    +0.000 HD
+ATOM     35  H   1SB A2001     -12.078  -3.942  17.194  0.00  0.00    +0.000 HD
+ATOM     36  H   1SB A2001      -9.980  -6.923  15.228  0.00  0.00    +0.000 HD
+ATOM     37  H   1SB A2001      -8.365  -6.944  17.013  0.00  0.00    +0.000 HD
+BRANCH  31  38
+ATOM     38  O3  1SB A2001     -12.084  -5.415  15.027  0.00  0.00    +0.000 OA
+ATOM     39  H   1SB A2001     -12.267  -6.212  14.570  0.00  0.00    +0.000 HD
+ENDBRANCH  31  38
+ENDBRANCH  25  28
+ENDBRANCH  23  25
+ENDBRANCH   1  23
+TORSDOF 8
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -8.521      4.118      5.378
+REMARK INTER + INTRA:         -12.508
+REMARK INTER:                 -12.144
+REMARK INTRA:                  -0.364
+REMARK UNBOUND:                -0.499
+REMARK  Name = ligand.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: N1_2  and  N2_5
+REMARK    3  A    between atoms: C2_4  and  C3_7
+REMARK    4  A    between atoms: N2_5  and  C4_9
+REMARK    5  A    between atoms: O2_6  and  C9_14
+REMARK    6  A    between atoms: O2_6  and  C10_15
+REMARK    7  A    between atoms: O3_8  and  C14_19
+REMARK    8  A    between atoms: C4_9  and  C5_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  1SB A2001     -10.903  -6.815  16.093  0.00  0.00    +0.000 N 
+ATOM      2  O1  1SB A2001      -8.961  -7.771  16.455  0.00  0.00    +0.000 OA
+ATOM      3  C3  1SB A2001     -10.159  -7.917  16.246  0.00  0.00    +0.000 C 
+ATOM      4  H   1SB A2001     -11.829  -6.952  15.786  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C2  1SB A2001     -10.746  -9.337  16.148  0.00  0.00    +0.000 C 
+ATOM      6  H   1SB A2001     -11.270  -9.400  15.217  0.00  0.00    +0.000 HD
+ATOM      7  H   1SB A2001     -11.345  -9.438  17.029  0.00  0.00    +0.000 HD
+BRANCH   5   8
+ATOM      8  C1  1SB A2001      -9.830 -10.467  16.204  0.00  0.00    +0.000 A 
+ATOM      9  C6  1SB A2001      -9.265 -10.895  15.027  0.00  0.00    +0.000 A 
+ATOM     10  C7  1SB A2001      -8.402 -11.944  14.938  0.00  0.00    +0.000 A 
+ATOM     11  C8  1SB A2001      -8.119 -12.605  16.085  0.00  0.00    +0.000 A 
+ATOM     12  C9  1SB A2001      -8.653 -12.154  17.261  0.00  0.00    +0.000 A 
+ATOM     13  C11 1SB A2001      -9.531 -11.094  17.400  0.00  0.00    +0.000 A 
+ATOM     14  H   1SB A2001      -9.509 -10.393  14.159  0.00  0.00    +0.000 HD
+ATOM     15  H   1SB A2001      -7.982 -12.223  14.037  0.00  0.00    +0.000 HD
+ATOM     16  H   1SB A2001      -7.510 -13.437  16.072  0.00  0.00    +0.000 HD
+ATOM     17  H   1SB A2001      -9.924 -10.800  18.307  0.00  0.00    +0.000 HD
+BRANCH  12  18
+ATOM     18  O2  1SB A2001      -8.308 -12.789  18.392  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C10 1SB A2001      -8.886 -14.081  18.752  0.00  0.00    +0.000 C 
+ATOM     20  H   1SB A2001      -9.645 -13.939  19.493  0.00  0.00    +0.000 HD
+ATOM     21  H   1SB A2001      -8.121 -14.718  19.143  0.00  0.00    +0.000 HD
+ATOM     22  H   1SB A2001      -9.317 -14.533  17.883  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  23
+ATOM     23  N2  1SB A2001     -10.514  -5.487  16.320  0.00  0.00    +0.000 NA
+ATOM     24  H   1SB A2001     -11.173  -5.067  16.976  0.00  0.00    +0.000 HD
+BRANCH  23  25
+ATOM     25  C4  1SB A2001     -10.483  -4.763  15.259  0.00  0.00    +0.000 C 
+ATOM     26  H   1SB A2001      -9.470  -4.458  15.095  0.00  0.00    +0.000 HD
+ATOM     27  H   1SB A2001     -10.875  -5.370  14.470  0.00  0.00    +0.000 HD
+BRANCH  25  28
+ATOM     28  C5  1SB A2001     -11.344  -3.525  15.311  0.00  0.00    +0.000 A 
+ATOM     29  C12 1SB A2001     -11.978  -2.934  16.387  0.00  0.00    +0.000 A 
+ATOM     30  C13 1SB A2001     -12.789  -1.782  16.178  0.00  0.00    +0.000 A 
+ATOM     31  C14 1SB A2001     -12.952  -1.179  14.963  0.00  0.00    +0.000 A 
+ATOM     32  C15 1SB A2001     -12.296  -1.771  13.890  0.00  0.00    +0.000 A 
+ATOM     33  C16 1SB A2001     -11.512  -2.921  14.071  0.00  0.00    +0.000 A 
+ATOM     34  H   1SB A2001     -11.865  -3.325  17.335  0.00  0.00    +0.000 HD
+ATOM     35  H   1SB A2001     -13.282  -1.380  16.991  0.00  0.00    +0.000 HD
+ATOM     36  H   1SB A2001     -12.386  -1.360  12.948  0.00  0.00    +0.000 HD
+ATOM     37  H   1SB A2001     -11.042  -3.334  13.250  0.00  0.00    +0.000 HD
+BRANCH  31  38
+ATOM     38  O3  1SB A2001     -13.710  -0.063  14.766  0.00  0.00    +0.000 OA
+ATOM     39  H   1SB A2001     -13.331   0.696  14.367  0.00  0.00    +0.000 HD
+ENDBRANCH  31  38
+ENDBRANCH  25  28
+ENDBRANCH  23  25
+ENDBRANCH   1  23
+TORSDOF 8
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -8.440      2.323      7.036
+REMARK INTER + INTRA:         -12.393
+REMARK INTER:                 -11.943
+REMARK INTRA:                  -0.450
+REMARK UNBOUND:                -0.499
+REMARK  Name = ligand.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: N1_2  and  N2_5
+REMARK    3  A    between atoms: C2_4  and  C3_7
+REMARK    4  A    between atoms: N2_5  and  C4_9
+REMARK    5  A    between atoms: O2_6  and  C9_14
+REMARK    6  A    between atoms: O2_6  and  C10_15
+REMARK    7  A    between atoms: O3_8  and  C14_19
+REMARK    8  A    between atoms: C4_9  and  C5_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  1SB A2001      -8.817 -11.346  19.335  0.00  0.00    +0.000 N 
+ATOM      2  O1  1SB A2001      -7.015 -10.331  20.068  0.00  0.00    +0.000 OA
+ATOM      3  C3  1SB A2001      -8.231 -10.299  19.930  0.00  0.00    +0.000 C 
+ATOM      4  H   1SB A2001      -9.801 -11.369  19.360  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C2  1SB A2001      -9.026  -9.089  20.455  0.00  0.00    +0.000 C 
+ATOM      6  H   1SB A2001      -8.702  -8.910  21.459  0.00  0.00    +0.000 HD
+ATOM      7  H   1SB A2001     -10.050  -9.375  20.338  0.00  0.00    +0.000 HD
+BRANCH   5   8
+ATOM      8  C1  1SB A2001      -8.918  -7.829  19.735  0.00  0.00    +0.000 A 
+ATOM      9  C6  1SB A2001      -9.936  -7.489  18.877  0.00  0.00    +0.000 A 
+ATOM     10  C7  1SB A2001      -9.954  -6.347  18.136  0.00  0.00    +0.000 A 
+ATOM     11  C8  1SB A2001      -8.884  -5.527  18.248  0.00  0.00    +0.000 A 
+ATOM     12  C9  1SB A2001      -7.889  -5.848  19.131  0.00  0.00    +0.000 A 
+ATOM     13  C11 1SB A2001      -7.829  -6.993  19.903  0.00  0.00    +0.000 A 
+ATOM     14  H   1SB A2001     -10.734  -8.138  18.788  0.00  0.00    +0.000 HD
+ATOM     15  H   1SB A2001     -10.748  -6.118  17.518  0.00  0.00    +0.000 HD
+ATOM     16  H   1SB A2001      -8.819  -4.671  17.676  0.00  0.00    +0.000 HD
+ATOM     17  H   1SB A2001      -7.047  -7.204  20.544  0.00  0.00    +0.000 HD
+BRANCH  12  18
+ATOM     18  O2  1SB A2001      -6.869  -4.987  19.269  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C10 1SB A2001      -5.495  -5.450  19.442  0.00  0.00    +0.000 C 
+ATOM     20  H   1SB A2001      -5.114  -5.096  20.378  0.00  0.00    +0.000 HD
+ATOM     21  H   1SB A2001      -4.888  -5.073  18.646  0.00  0.00    +0.000 HD
+ATOM     22  H   1SB A2001      -5.474  -6.519  19.431  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  23
+ATOM     23  N2  1SB A2001      -8.188 -12.413  18.678  0.00  0.00    +0.000 NA
+ATOM     24  H   1SB A2001      -7.269 -12.101  18.366  0.00  0.00    +0.000 HD
+BRANCH  23  25
+ATOM     25  C4  1SB A2001      -8.834 -12.852  17.657  0.00  0.00    +0.000 C 
+ATOM     26  H   1SB A2001      -8.394 -13.781  17.360  0.00  0.00    +0.000 HD
+ATOM     27  H   1SB A2001      -9.854 -12.946  17.965  0.00  0.00    +0.000 HD
+BRANCH  25  28
+ATOM     28  C5  1SB A2001      -8.834 -11.929  16.463  0.00  0.00    +0.000 A 
+ATOM     29  C12 1SB A2001      -8.100 -11.996  15.294  0.00  0.00    +0.000 A 
+ATOM     30  C13 1SB A2001      -8.236 -10.967  14.319  0.00  0.00    +0.000 A 
+ATOM     31  C14 1SB A2001      -9.098  -9.914  14.443  0.00  0.00    +0.000 A 
+ATOM     32  C15 1SB A2001      -9.844  -9.864  15.615  0.00  0.00    +0.000 A 
+ATOM     33  C16 1SB A2001      -9.706 -10.856  16.599  0.00  0.00    +0.000 A 
+ATOM     34  H   1SB A2001      -7.458 -12.787  15.129  0.00  0.00    +0.000 HD
+ATOM     35  H   1SB A2001      -7.651 -11.020  13.470  0.00  0.00    +0.000 HD
+ATOM     36  H   1SB A2001     -10.508  -9.089  15.764  0.00  0.00    +0.000 HD
+ATOM     37  H   1SB A2001     -10.274 -10.785  17.457  0.00  0.00    +0.000 HD
+BRANCH  31  38
+ATOM     38  O3  1SB A2001      -9.246  -8.941  13.500  0.00  0.00    +0.000 OA
+ATOM     39  H   1SB A2001      -8.832  -8.109  13.616  0.00  0.00    +0.000 HD
+ENDBRANCH  31  38
+ENDBRANCH  25  28
+ENDBRANCH  23  25
+ENDBRANCH   1  23
+TORSDOF 8
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -8.187      2.983      4.031
+REMARK INTER + INTRA:         -12.037
+REMARK INTER:                 -11.558
+REMARK INTRA:                  -0.479
+REMARK UNBOUND:                -0.499
+REMARK  Name = ligand.pdb
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: N1_2  and  N2_5
+REMARK    3  A    between atoms: C2_4  and  C3_7
+REMARK    4  A    between atoms: N2_5  and  C4_9
+REMARK    5  A    between atoms: O2_6  and  C9_14
+REMARK    6  A    between atoms: O2_6  and  C10_15
+REMARK    7  A    between atoms: O3_8  and  C14_19
+REMARK    8  A    between atoms: C4_9  and  C5_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  1SB A2001      -9.306  -7.362  17.862  0.00  0.00    +0.000 N 
+ATOM      2  O1  1SB A2001     -11.359  -7.959  17.369  0.00  0.00    +0.000 OA
+ATOM      3  C3  1SB A2001     -10.171  -8.019  17.080  0.00  0.00    +0.000 C 
+ATOM      4  H   1SB A2001      -8.350  -7.537  17.702  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C2  1SB A2001      -9.724  -8.851  15.863  0.00  0.00    +0.000 C 
+ATOM      6  H   1SB A2001      -8.921  -8.321  15.395  0.00  0.00    +0.000 HD
+ATOM      7  H   1SB A2001     -10.613  -8.964  15.279  0.00  0.00    +0.000 HD
+BRANCH   5   8
+ATOM      8  C1  1SB A2001      -9.267 -10.214  16.091  0.00  0.00    +0.000 A 
+ATOM      9  C6  1SB A2001      -8.830 -10.936  15.007  0.00  0.00    +0.000 A 
+ATOM     10  C7  1SB A2001      -8.387 -12.221  15.081  0.00  0.00    +0.000 A 
+ATOM     11  C8  1SB A2001      -8.413 -12.810  16.299  0.00  0.00    +0.000 A 
+ATOM     12  C9  1SB A2001      -8.813 -12.078  17.383  0.00  0.00    +0.000 A 
+ATOM     13  C11 1SB A2001      -9.268 -10.772  17.357  0.00  0.00    +0.000 A 
+ATOM     14  H   1SB A2001      -8.838 -10.477  14.082  0.00  0.00    +0.000 HD
+ATOM     15  H   1SB A2001      -8.047 -12.723  14.246  0.00  0.00    +0.000 HD
+ATOM     16  H   1SB A2001      -8.135 -13.797  16.408  0.00  0.00    +0.000 HD
+ATOM     17  H   1SB A2001      -9.578 -10.263  18.200  0.00  0.00    +0.000 HD
+BRANCH  12  18
+ATOM     18  O2  1SB A2001      -8.770 -12.665  18.589  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C10 1SB A2001      -8.894 -14.113  18.740  0.00  0.00    +0.000 C 
+ATOM     20  H   1SB A2001      -9.522 -14.332  19.578  0.00  0.00    +0.000 HD
+ATOM     21  H   1SB A2001      -7.926 -14.539  18.898  0.00  0.00    +0.000 HD
+ATOM     22  H   1SB A2001      -9.326 -14.528  17.853  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  23
+ATOM     23  N2  1SB A2001      -9.607  -6.452  18.886  0.00  0.00    +0.000 NA
+ATOM     24  H   1SB A2001     -10.617  -6.450  19.027  0.00  0.00    +0.000 HD
+BRANCH  23  25
+ATOM     25  C4  1SB A2001      -9.231  -5.248  18.641  0.00  0.00    +0.000 C 
+ATOM     26  H   1SB A2001      -9.104  -4.743  19.576  0.00  0.00    +0.000 HD
+ATOM     27  H   1SB A2001      -8.326  -5.325  18.076  0.00  0.00    +0.000 HD
+BRANCH  25  28
+ATOM     28  C5  1SB A2001     -10.191  -4.443  17.800  0.00  0.00    +0.000 A 
+ATOM     29  C12 1SB A2001     -10.383  -4.444  16.432  0.00  0.00    +0.000 A 
+ATOM     30  C13 1SB A2001     -11.326  -3.547  15.853  0.00  0.00    +0.000 A 
+ATOM     31  C14 1SB A2001     -12.107  -2.694  16.581  0.00  0.00    +0.000 A 
+ATOM     32  C15 1SB A2001     -11.919  -2.713  17.959  0.00  0.00    +0.000 A 
+ATOM     33  C16 1SB A2001     -10.977  -3.572  18.546  0.00  0.00    +0.000 A 
+ATOM     34  H   1SB A2001      -9.845  -5.090  15.833  0.00  0.00    +0.000 HD
+ATOM     35  H   1SB A2001     -11.425  -3.541  14.826  0.00  0.00    +0.000 HD
+ATOM     36  H   1SB A2001     -12.480  -2.088  18.558  0.00  0.00    +0.000 HD
+ATOM     37  H   1SB A2001     -10.863  -3.557  19.571  0.00  0.00    +0.000 HD
+BRANCH  31  38
+ATOM     38  O3  1SB A2001     -13.027  -1.852  16.031  0.00  0.00    +0.000 OA
+ATOM     39  H   1SB A2001     -13.941  -2.029  16.129  0.00  0.00    +0.000 HD
+ENDBRANCH  31  38
+ENDBRANCH  25  28
+ENDBRANCH  23  25
+ENDBRANCH   1  23
+TORSDOF 8
+ENDMDL

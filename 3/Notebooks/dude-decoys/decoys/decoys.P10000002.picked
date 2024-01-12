@@ -1,0 +1,3 @@
+ligand	C[C@H]([C@H]1C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)NC(=O)N[C@@H](CSSC[C@@H](C(=O)N1)[NH3+])C(=O)NCC(=O)N)Cc2ccccc2)C(C)C)CCCNC(=[NH2+])N)Cc3ccccc3)O	25	P10000002
+CC[C@H](C)[C@H]1C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CSSC[C@@H](C(=O)N[C@H](C(=O)N1)Cc2ccc(cc2)O)[NH3+])C(=O)N3CCC[C@H]3C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N)CC(=O)N)CCC(=O)N	C98229734	P156227711
+CC(C)[C@@H]1C(=O)N[C@@H](C(=O)N[C@@H](CSSC(CC(=O)N[C@@H](C(=O)N[C@@H](C(=O)N1)Cc2ccccc2)Cc3ccc(cc3)O)(C)C)C(=O)N4CCC[C@@H]4C(=O)N[C@@H](CCCNC(=[NH2+])N)C(=O)NCC(=O)N)CC(=O)N	C98229847	P156227864
